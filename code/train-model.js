@@ -4,11 +4,13 @@ var modelId = process.env.NANONETS_MODEL_ID;
 
 
 const resp = request.post({
-    url: `https://app.nanonets.com/api/v2/ObjectDetection/${modelId}/Train/`,
+    url: `https://app.nanonets.com/api/v2/ObjectDetection/Model/${modelId}/Train/`,
     auth: {
-        username: api,
+        username: apiKey,
         password: ''
     }
 }, (err, body) => {
-    console.log(err, body)
+    response = JSON.parse(body.body)
+    console.log(response)
+    console.log("\n\nNEXT RUN: node ./code/model-state.js")
 });

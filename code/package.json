@@ -1,0 +1,18 @@
+{
+  "name": "nanonets-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "find": "^0.2.9",
+    "request": "^2.83.0",
+    "xml2json": "^0.11.0"
+  }
+}

@@ -17,4 +17,10 @@ const resp = request.post({
     }
 }, (err, body) => {
 	response = JSON.parse(body.body)
+
+	for (i=0;i<response.result.length;i++){
+		console.log("input: "+response.result[i].input);
+		console.log(response.result[i].prediction);
+		console.log("\n");
+	}
 });

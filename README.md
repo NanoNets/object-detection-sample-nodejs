@@ -32,7 +32,7 @@ Annotations are present for each frame and have the same name as the image name.
 ```bash
 git clone https://github.com/NanoNets/object-detection-sample-nodejs.git
 cd object-detection-sample-nodejs
-npm install
+npm install ./code/
 ```
 
 ### Step 2: Get your free API Key

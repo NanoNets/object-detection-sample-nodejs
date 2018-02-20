@@ -67,5 +67,7 @@ find.file(opts.annotationFolder, (files) => {
                 outerCB(err, results);
             });
         });
+    }, (err, results) => {
+        console.log("\n\n\nNEXT RUN: node ./code/train-model.js");
     });
 });

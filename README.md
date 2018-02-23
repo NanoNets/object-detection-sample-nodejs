@@ -26,7 +26,7 @@ Annotations are present for each frame and have the same name as the image name.
 
 # Build an Object Detector for the Millenium Falcon
 
->**Note:** Make sure you have node.js installed on your system
+>**Note:** Make sure you have node.js and npm installed on your system
  
 ### Step 1: Clone the Repo
 ```bash
